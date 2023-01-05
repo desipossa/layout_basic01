@@ -1,0 +1,71 @@
+.header {
+    line-height: 100px;
+}
+
+.header .inner {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header nav>ul {
+    display: flex;
+    gap: 30px;
+    /* margin은 line 맞출려는 것 중요하지 않음 */
+    margin: 0 0 0 -15px;
+}
+
+.content {
+    padding: 100px 0;
+}
+
+.content h2 {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0 0 10px 0;
+    text-align: center;
+}
+
+.content p {
+    font-size: 15px;
+    font-weight: 300;
+    margin: 0 0 30px 0;
+    text-align: center;
+}
+
+.content .inner {
+    display: flex;
+    gap: 30px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.content figure {
+    flex: 1;
+
+    /* height, overflow은 line 맞출려는 것 중요하지 않음 */
+    height: 370px;
+    overflow: hidden;
+}
+
+.content figure img {
+    width: 100%;
+}
+
+.footer {
+    background: #333;
+    color: #fff;
+    line-height: 80px;
+}
+
+.footer .f_menu {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    border-bottom: 1px solid #555;
+}
+
+.footer address {
+    text-align: center;
+}
